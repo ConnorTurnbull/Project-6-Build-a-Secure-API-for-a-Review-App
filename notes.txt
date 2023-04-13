@@ -1,0 +1,9 @@
+- signup and login functionality working
+
+- errors out after sign-in - CORS error, suspect headers possibly?
+- CORS error fixed
+
+- verified all items GET functionality by manually adding sauce via database
+
+- error when adding new sauce via app
+- error when displaying individual sauces - cannot read usersLiked?
