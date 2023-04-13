@@ -7,7 +7,6 @@ exports.createSauce = (req, res, next) => {
     description: req.body.description,
     imageUrl: req.body.imageUrl,
     heat: req.body.heat,
-    imageUrl: req.body.imageUrl,
     mainPepper: req.body.mainPepper,
     userId: req.body.userId
   });
@@ -102,8 +101,6 @@ exports.deleteSauce = (req, res, next) => {
     });
   }
   
-
-
 exports.getAllSauces = (req, res, next) => {
   Sauce.find().then(
     (sauces) => {

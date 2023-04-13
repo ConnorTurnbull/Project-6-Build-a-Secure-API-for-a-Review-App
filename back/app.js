@@ -25,7 +25,11 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use('/api/sauce', sauceRoutes);
+app.options('*', (_, res) => {
+    res.sendStatus(200);
+});
+
+app.use('/api/sauces', sauceRoutes);
 app.use('/api/auth', userRoutes);
 
 module.exports = app;
