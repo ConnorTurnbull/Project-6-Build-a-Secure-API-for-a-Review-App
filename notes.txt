@@ -7,3 +7,5 @@
 
 - error when adding new sauce via app
 - error when displaying individual sauces - cannot read usersLiked?
+
+- spreading

@@ -1,11 +1,12 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const path = require('path');
+
 const sauceRoutes = require('./routes/sauce');
 const userRoutes = require('./routes/user');
 
 const app = express();
 app.use(express.json());
-
 
 //MongoDB connection:
 mongoose.connect('mongodb+srv://connorturnbull93:bLwcWErYEB8IjMYL@ct-project-6.xxrwq6d.mongodb.net/?retryWrites=true&w=majority')
@@ -25,10 +26,7 @@ app.use((req, res, next) => {
     next();
 });
 
-app.options('*', (_, res) => {
-    res.sendStatus(200);
-});
-
+app.use('/images', express.static(path.join(__dirname, 'images')));
 app.use('/api/sauces', sauceRoutes);
 app.use('/api/auth', userRoutes);
 
