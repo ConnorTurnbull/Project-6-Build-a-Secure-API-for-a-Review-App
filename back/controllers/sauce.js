@@ -20,7 +20,7 @@ exports.createSauce = (req, res, next) => {
   sauce.save().then(
     () => {
       res.status(201).json({
-        message: 'Post saved successfully!'
+        message: "Item saved successfully!"
       });
     }
   ).catch(
@@ -88,7 +88,7 @@ exports.modifySauce = (req, res, next) => {
   Sauce.updateOne({_id: req.params.id}, sauce).then(
     () => {
       res.status(201).json({
-        message: 'Updated successfully!'
+        message: "Item updated successfully!"
       });
     }
   ).catch(
@@ -103,7 +103,7 @@ exports.modifySauce = (req, res, next) => {
 exports.deleteSauce = (req, res, next) => {
   Sauce.findOne({_id: req.params.id}).then(
     (sauce) => {
-      const filename = sauce.iamgeUrl.split('/images')[1];
+      const filename = sauce.imageUrl.split('/images')[1];
       fs.unlink('/images' + filename, () => {
         if (!sauce) {
         return res.status(404).json({
@@ -118,7 +118,7 @@ exports.deleteSauce = (req, res, next) => {
       Sauce.deleteOne({_id: req.params.id}).then(
         () => {
           res.status(200).json({
-            message: 'Deleted!'
+            message: "Item Deleted!"
           });
         }
       ).catch(
