@@ -23,7 +23,7 @@ Subject: API requirements
 >
 >We are excited to have you contribute to the new app! As a small brand, this project will have a big impact on our growth.
 >
->Attached is the API requirements specification. You can also find a link to the project repo here, where you’ll have access to the front end. 
+>Attached is the API requirements specification. You can also find a link to the project repo [here](https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6), where you’ll have access to the front end. 
 >
 >Please note the security requirements. We’ve experienced recent attacks on our website, so we want reassurance that the API for this app uses secure coding practices and protects all user passwords. 
 >
@@ -36,6 +36,6 @@ Piiquante
 >
 >Attached: 
 >
->Requirements
+>[Requirements](https://github.com/ConnorTurnbull/Project-6-Build-a-Secure-API-for-a-Review-App/blob/master/Requirements_WebDev_P6.pdf)
 >
 You’re ready to start on the API and heat things up!
