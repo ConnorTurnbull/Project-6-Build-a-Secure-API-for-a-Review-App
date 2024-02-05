@@ -3,12 +3,16 @@
 The purpose of thise project was to build a backend API for a pre-existing frontend application as per the scenario outlined below. Express, Mongoose and MongoDB were used for this project.
 <h2>Instructions</h2>
 To run the project on localhost:
-<h3>Frontend</h3>
+<h4>Frontend</h4>
 - Navigate to 'Project-6\Web-Developer-P6', then "npm run start".</br>
 - Navigate to "localhost:4200" in browser.
-<h3>Backend</h3>
+<h4>Backend</h4>
 - Navigate to 'Project-6\Web-Developer-P6\back' then "nodemon server".
-
+<h2>Tech Stack</h2>
+- Express</br>
+- Mongoose</br>
+- MongoDB</br>
+- Multer
 <h2>Scenario</h2>
 You have spent the past year or so as a freelance back-end developer, and you have worked on multiple projects of varying sizes and difficulties.
 
