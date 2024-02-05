@@ -1,8 +1,15 @@
 <h1>Project 6 - Build a secure API for a review app</h1>
-<b>Scenario</b>
-</br>
-</br>
+<h2>Overview</h2>
+The purpose of thise project was to build a backend API for a pre-existing frontend application as per the scenario outlined below. Express, Mongoose and MongoDB were used for this project.
+<h2>Instructions</h2>
+To run the project on localhost:
+<h3>Frontend</h3>
+- Navigate to 'Project-6\Web-Developer-P6', then "npm run start".</br>
+- Navigate to "localhost:4200" in browser.
+<h3>Backend</h3>
+- Navigate to 'Project-6\Web-Developer-P6\back' then "nodemon server".
 
+<h2>Scenario</h2>
 You have spent the past year or so as a freelance back-end developer, and you have worked on multiple projects of varying sizes and difficulties.
 
 Last week, you received a message on your freelance account from Piiquante, a specialty maker of spicy, pepper-based condiments, asking for help with a new project. With the increasing popularity of specialty hot sauces thanks to the YouTube series "Hot Ones," Piiquante wants to develop a hot sauce review web app called "Hot Takes."
